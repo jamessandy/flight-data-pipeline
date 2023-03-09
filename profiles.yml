@@ -1,0 +1,9 @@
+my-profile:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: abc-123
+      dataset: my_dataset
+      location: EU # Optional, one of US or EU, or a regional location
