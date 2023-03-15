@@ -3,5 +3,4 @@ version: 2
 sources:
   - name: staging
     tables:
-      - name: airline-data 
-       
+      - name: airline-data
